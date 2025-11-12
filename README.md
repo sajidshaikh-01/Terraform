@@ -23,4 +23,10 @@ This repository demonstrates how to create an **AWS EC2 instance** using Terrafo
 ---
 
 ## 🧩 Folder Structure
-
+terraform-ec2-demo/
+├── backend.tf # S3 + DynamoDB backend setup
+├── main.tf # EC2 instance configuration
+├── variables.tf # All variable declarations
+├── outputs.tf # Outputs of resources
+├── terraform.tfvars # Variable values
+└── README.md # Project documentation
