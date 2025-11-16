@@ -1,0 +1,10 @@
+Terraform outputs allow you to display useful information after your infrastructure has been created.
+They are usually used for:
+
+Showing important values (IP addresses, URLs, ARNs)
+
+Passing values to other Terraform modules
+
+Providing data for automation pipelines (CI/CD)
+
+Outputs are defined in an outputs.tf file.
