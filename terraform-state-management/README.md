@@ -1,4 +1,4 @@
-# 📘 Terraform State, Remote State & State Locking — Complete README
+# 📘 Terraform State, Remote State & State Locking 
 
 * What is **Terraform State**
 * Why it is required
