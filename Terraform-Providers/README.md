@@ -1,4 +1,4 @@
-# 🌍 Terraform Providers, Multi-Region, Multi-Cloud & Random Provider — README
+#  Terraform Providers, Multi-Region, Multi-Cloud & Random Provider — README
 
 * What are **Terraform Providers**
 * How **Multi-Region deployments** work
@@ -8,7 +8,7 @@
 
 ---
 
-# 🧩 1. What is a Terraform Provider?
+#  1. What is a Terraform Provider?
 
 A **provider** is a plugin that allows Terraform to interact with external services like:
 
@@ -33,12 +33,12 @@ This tells Terraform to interact with AWS in the *Mumbai* region.
 
 ---
 
-# 🌏 2. Multi-Region Setup in Terraform
+#  2. Multi-Region Setup in Terraform
 
 Multi-region means deploying resources in **different regions inside the same cloud provider**.
 Example: EC2 in Mumbai + S3 bucket in Singapore.
 
-### ✅ Example: Multi-Region with AWS
+###  Example: Multi-Region with AWS
 
 ```hcl
 # Provider for Mumbai (Default)
@@ -65,7 +65,7 @@ resource "aws_s3_bucket" "sg_bucket" {
 }
 ```
 
-### 🔍 Why Multi-Region?
+###  Why Multi-Region?
 
 * High availability
 * Disaster recovery
@@ -73,12 +73,12 @@ resource "aws_s3_bucket" "sg_bucket" {
 
 ---
 
-# ☁️ 3. Multi-Cloud Setup in Terraform
+#  3. Multi-Cloud Setup in Terraform
 
 Terraform can interact with multiple cloud providers **at the same time**.
 Example: Deploy EC2 in AWS + VM in Azure + Bucket in GCP.
 
-### ✅ Example: AWS + Azure + GCP
+###  Example: AWS + Azure + GCP
 
 ```hcl
 # AWS Provider
@@ -116,7 +116,7 @@ resource "google_storage_bucket" "gcp_bucket" {
 }
 ```
 
-### ⭐ Why Multi-Cloud?
+###  Why Multi-Cloud?
 
 * Avoid vendor lock-in
 * Use best services from each cloud
@@ -124,7 +124,7 @@ resource "google_storage_bucket" "gcp_bucket" {
 
 ---
 
-# 🎲 4. Random Provider in Terraform
+#  4. Random Provider in Terraform
 
 The **Random Provider** is used to generate:
 
