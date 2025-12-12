@@ -1,4 +1,4 @@
-# 🌍 What is Terraform? Why It's Needed?
+#  What is Terraform? Why It's Needed?
 
 ## **What is Terraform?**
 
@@ -8,7 +8,7 @@ Terraform works with almost all cloud providers: AWS, Azure, GCP, OCI, DigitalOc
 
 ---
 
-## ⭐ **Why Terraform is Needed**
+##  **Why Terraform is Needed**
 
 Terraform solves real DevOps challenges:
 
