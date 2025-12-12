@@ -40,7 +40,7 @@ Terraform automatically understands resource dependencies.
 
 ---
 
-# ⚔️ Terraform vs Python vs Shell Scripting
+#  Terraform vs Python vs Shell Scripting
 
 Below is a clean comparison for interviews and real projects.
 
