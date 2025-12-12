@@ -1,7 +1,7 @@
-# 🔀 Terraform Conditions — Complete README
+#  Terraform Conditions — Complete README
 ---
 
-# 🌟 What Are Conditions in Terraform?
+#  What Are Conditions in Terraform?
 
 Terraform uses conditional expressions to decide values based on **true/false logic**.
 
