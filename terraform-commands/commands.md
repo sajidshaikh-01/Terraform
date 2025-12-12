@@ -1,14 +1,22 @@
 1. Initialize Terraform
+'''
 terraform init
+'''
 ---
 2. Validate Terraform Code
+'''
 terraform validate
+'''
 ---
 3. Format Code Properly
+'''
 terraform fmt
+'''
 ---
 4. See What Will Change (Dry Run)
+'''
 terraform plan
+'''
 ---
 5. Apply Changes
 terraform apply
