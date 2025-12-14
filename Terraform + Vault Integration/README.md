@@ -1,4 +1,4 @@
-# 🔐 Terraform + Vault Integration — Secrets Management (Complete README)
+# 🔐 Terraform + Vault Integration — Secrets Management (Complete README
 ---
 # 🌟 Why Secrets Management Is Needed
 
