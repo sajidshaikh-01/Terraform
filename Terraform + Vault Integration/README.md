@@ -196,13 +196,6 @@ Example: AppRole (concept)
 
 ---
 
-# ⚠️ Common Mistakes to Avoid
 
-❌ Hardcoding secrets in `.tf` files
-❌ Committing secrets to GitHub
-❌ Using Vault dev mode in production
-❌ Ignoring Terraform state security
-
----
 
 
