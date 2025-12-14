@@ -194,7 +194,7 @@ Example: AppRole (concept)
 | TLS certs         | Auto-rotation           |
 | Cloud credentials | Temporary credentials   |
 
----
+
 
 
 
